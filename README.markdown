@@ -28,7 +28,7 @@ pip3 install --user -r requirements.txt
 Bring the bulb(s) you want to factory reset close to your EZSP device. Shutdown any other applications (home assistant, perhaps?) that may be using the EZSP device. Power on the bulb(s) and immediately:
 
 ```sh
-python3 hue-thief /dev/ttyUSB0
+python3 ./hue-thief.py /dev/ttyUSB0
 ```
 
 `/dev/ttyUSB0` should be your EZSP device. You should have full permissions on this device file.
